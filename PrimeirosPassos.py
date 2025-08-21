@@ -88,4 +88,67 @@
 #print(friends[1])
 
 #List Functions
+#lucky_numbers = [4, 8, 15, 16, 23, 42]
+#friends = ["Kevin", "Karen", "Jim","Jim", "Oscar", "Tim"]
+#friends2 = friends.copy()
+#print(lucky_numbers)
 
+#friends.extend(lucky_numbers) # Junta tudo
+#friends.append("Creed")
+#friends.insert(1,"Kelly") #muda o objeto da lista na posição determinanda pelo index
+#friends.remove("Jim")
+#friends.pop() #tira o último da lista
+#print(friends.index("Oscar")) #retorna seu numero
+
+#print(friends.count("Jim",)) #retorna quantas vezes aquele objeto aparece
+#friends.sort() #sort ele meio que serve para colocar em ordem *Tem o .reverse que vai colocar isso na ordem ao contrário
+#print(friends)
+#lucky_numbers.sort()
+#print(lucky_numbers)
+
+#Tuples (type of data structure) (can not change) só para dados que não mudarão com o tempo
+#coordinates = (4, 5)
+#print(coordinates[0])
+
+#Functions
+#def say_hi(name,age):
+   # print("Hello " + name+  " you are " + str(age) + " years old.")
+#say_hi("Mike",35)
+#say_hi("Steve",70)
+
+#Return Statement
+#def cube(num):
+    #return num * num * num
+
+#num = input("numero:")   # essas duas linhas foram um improviso que fiz para tentar fazer uma calculadora ao cubo e deu certo
+#print(cube(int(num)))
+
+#result = cube(5)
+#print(result)
+
+
+#If Statements (uso do IF)
+#is_male = False
+#is_tall = False
+#if is_male and is_tall:
+    #print("You are a tall male")
+#elif is_male and not(is_tall):
+    #print("you are a short male")
+#elif not is_male and is_tall:
+    #print("you are not a male but are tall")
+#else:
+    #print("You are not a male nor tall")
+
+#If statements and comparisons
+
+#def max_num(num1,num2,num3):
+    #if num1 >= num2 and num1 >= num3:
+        #return num1
+    #elif num2 >= num1 and num2 >= num3:
+        #return num2
+    #else:
+        #return num3
+#print(max_num(1000,20,3))
+
+
+#Building a better calculator
