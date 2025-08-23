@@ -1,6 +1,5 @@
 #print("hello world")
-from dis import print_instructions
-from operator import index
+
 
 #Drawing a Shape (Desenhar um triângulo) * A Ordem dos comandos influenciam
 
@@ -219,7 +218,7 @@ from operator import index
 
 #for letter in "Giraffe Academy":
    # print(letter)
-friends = ["Jim", "John", "Kevin"]
+# "Kevin"]
 #for index in range(len(friends)):
     #print(friends[index])
 #for index in range(5):
@@ -240,16 +239,61 @@ friends = ["Jim", "John", "Kevin"]
 
 #2d lists and nested loops
 
-number_grid = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-    [0]
-]
+#number_grid = [
+    #[1, 2, 3],
+    #[4, 5, 6],
+    #[7, 8, 9],
+    #[0]
+#]
 #print (number_grid[2][1])
 
-for row in number_grid:
-    for col in row:
-        print(col)
+#for row in number_grid:
+   #for col in row:
+        #print(col)
 
 #Build a Translator
+
+#def translate(phrase):
+    #translation = ""
+    #for letter in phrase:
+       # if letter.lower() in "aeiou":
+            #if letter.isupper:
+                #translation = translation + "G"
+            #else:
+                #translation = translation + "g"
+        #else:
+            #translation = translation + letter
+    #return translation
+
+#print(translate(input("Enter a phrase: ")))
+
+#Try Except
+#try:
+    #value: 10 / 0
+    #number = int(input("Enter a number :"))
+    #print(number)
+#except ZeroDivisionError:
+    #print("Division by zero")
+#except ValueError:
+    #print("invalid input")
+
+
+#Reading files
+
+#employes_file = open("employes.txt", "r")
+#print(employes_file.readable())
+#print(employes_file.read())
+
+#employes_file.close()
+
+#Writing to files
+
+#employes_file = open("employes.txt", "a")
+#employes_file.write("\nKelly - Customer Service")
+#employes_file.close()
+
+#employes_file = open("employes1.txt", "w")
+#employes_file.write("\nKelly - Customer Service")
+#employes_file.close()
+
+#Modules and Pip
