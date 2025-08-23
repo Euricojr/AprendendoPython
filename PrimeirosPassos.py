@@ -1,5 +1,6 @@
 #print("hello world")
-
+from dis import print_instructions
+from operator import index
 
 #Drawing a Shape (Desenhar um triângulo) * A Ordem dos comandos influenciam
 
@@ -152,3 +153,103 @@
 
 
 #Building a better calculator
+
+#num1 = float(input("Enter first number: "))
+#op = input("Enter operator: ")
+#num2 = float(input("Enter second number: "))
+
+#if op == "+":
+    #print(num1 + num2)
+#elif op == "-":
+    #print(num1 - num2)
+#elif op == "*":
+    #print(num1 * num2)
+#elif op == "/":
+    #print(num1 / num2)
+#else:
+    #print("Invalid operator")
+
+
+#dictionaries
+
+#montConversions = {
+    #"Jan": "January",
+    #"Feb": "February",
+    #"Mar": "March",
+    #"Apr": "April",
+    #"May": "May",
+    #"Jun": "June",
+    #"Jul": "July",
+    #"Aug": "August",
+    #"Sep": "September",
+    #"Oct": "October",
+    #"Nov": "November",
+   #"Dec": "December"
+#}
+
+#print(montConversions.get("Nov", "not a value key")) #Se não tiver a kay correspondente vai retornar not a value key
+
+#While loop (estrutura que permite percorrer e fazer e achar algo)
+
+#i = 1
+#while i <= 10:
+    #print(i)
+   #i += 1
+#print("Done with loop")
+
+#Building a Guessing game (jogo de adivinhar)
+
+#secret_word = "giraffe"
+#guess = ""
+#guess_count = 0
+#guess_limit = 3
+#out_of_guess = False
+#while guess != secret_word and not out_of_guess:
+   # if guess_count < guess_limit:
+        #guess = input("Enter guess: ")
+        #guess_count += 1
+    #else:
+       # out_of_guess = True
+#if out_of_guess:
+    #print("You lose")
+#else:
+    #print("You win")
+
+#For loop
+
+#for letter in "Giraffe Academy":
+   # print(letter)
+friends = ["Jim", "John", "Kevin"]
+#for index in range(len(friends)):
+    #print(friends[index])
+#for index in range(5):
+    #if index == 0:
+        #print("First Iteraction")
+    #else:
+        #print("Second Iteraction")
+
+
+
+#exponent function
+#def raise_to_power(base_num, pow_num):
+    #result =1
+    #for index in range(pow_num):
+        #result = result * base_num
+    #return  result
+#print(raise_to_power(2, 3))
+
+#2d lists and nested loops
+
+number_grid = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [0]
+]
+#print (number_grid[2][1])
+
+for row in number_grid:
+    for col in row:
+        print(col)
+
+#Build a Translator
