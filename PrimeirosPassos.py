@@ -296,4 +296,61 @@
 #employes_file.write("\nKelly - Customer Service")
 #employes_file.close()
 
-#Modules and Pip
+#Modules and Pip  // python model index buscar no site outros modules
+#usa se o pip para instalar os modelos de python /// verificar se o pip esta no pc, so usar o terminarl do pycharm pip --version
+
+#import useful_tools
+
+#print(useful_tools.roll_dice(10))
+
+#Classes and Objects
+
+#from student import Student
+
+#student1 = Student("Jim","business",3.2, False)
+#print(student1.name)
+
+#Building a Multiple Choice Quiz
+#from Question import Question
+#question_prompts = [
+    #"What color are apples?\n (a)red/green\n (b) purple\n (c) orange\n\n",
+    #"What color are Bananas?\n (a)teal\n (b) magenta\n (c) yellow\n\n ",
+    #"What color are strawberries?\n (a)yellow\n (b) red\n (c) blue\n\n "
+#]
+
+#questions = [
+    #Question(question_prompts[0], "a"),
+    #Question(question_prompts[1], "c"),
+    #Question(question_prompts[2], "b")
+#]
+
+#def run_test(questions):
+    #score = 0
+    #for question in questions:
+        #answer = input(question.prompt)
+        #if answer == question.answer:
+            #score += 1
+    #print("You got" + str(score) + "/" + str(len(questions)) + "correct")
+
+#run_test(questions)
+
+
+#Object Functions
+#from student import Student
+#student1 =Student("Jim","business",3.2)
+#student2 = Student("Clara","business",3.8)
+
+#print(student2.on_honor_roll())
+
+#Inheritance (herdar)
+#from Chef import Chef
+#from ChineseChef import ChineaseChef
+
+#myChef = Chef()
+#myChef.make_speccial_dish()
+
+#myChineseChef = ChineaseChef()
+#myChineseChef.make_fried_rice()
+
+#Python interpreter
+
