@@ -41,4 +41,4 @@ Este repositório contém exemplos e exercícios de Python para iniciantes, cobr
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/Eurico-Junior/AprendendoPython.git
+git clone https://github.com/Euricojr/AprendendoPython.git
