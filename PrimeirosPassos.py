@@ -311,16 +311,16 @@
 ############################################################
 
 #for letter in "Giraffe Academy":
-   # print(letter)
+    #print(letter)
 
-#for index in range(len(friends)):
-    #print(friends[index])
+#for index in range(len(letter)):
+    #print(letter[index])
 
 #for index in range(5):
     #if index == 0:
-        #print("First Iteraction")
+        #print("First Interaction")
     #else:
-        #print("Second Iteraction")
+        #print("Second Interaction")
 
 
 
